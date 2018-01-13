@@ -32,7 +32,6 @@ mongoose.Promise = Promise;
 
 // Source the connection information for mongo from the environment
 var mongoUrl = process.env.MONGODB_URI;
-console.log(mongoUrl);
 
 // mongodb://heroku_8hxq09hk:qhu5qei8oqohk3065gar1ueet0@ds161443.mlab.com:61443/heroku_8hxq09hk
 // mongoose.connect("mongodb://localhost/week18Populater", {
